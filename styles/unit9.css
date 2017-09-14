@@ -1,0 +1,140 @@
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5f9;
+}
+
+h1, h2, h3, h4, .tagline {
+    color: #051c6d;
+}
+
+.header-bar {
+    padding: 20px 0;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    opacity: .9;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 90px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    padding-top: 15px;
+    border-top: 1px dotted #051c6d;
+    width: 97%;
+    margin: 15px auto 0 auto;
+}
+
+.hero {
+    width: 100%;
+}
+
+.section {
+    width: 70%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-section {
+    width: 50%;
+    padding-right: 15px;
+    border-right: 1px dotted #051c6d;
+}
+
+.flex-section:last-of-type {
+    border-right: none;
+    margin-left: 25px;
+}
+
+.flex-section div {
+    margin-bottom: 15px;
+}
+
+button {
+    border-style: none;
+    padding: 7px 15px;
+    color: #fff;
+    background-color: #3474bf;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+button:active {
+    background-color: #051c6d;
+}
+
+label, th {
+    color: #404040;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+input[type="text"] {
+    width: 90%;
+    display: block;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 3px;
+    border-style: solid;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+.review {
+    display: flex;
+    background-color: #e8f2ff;
+}
+
+.review img {
+    width: 35%;
+    height: 35%;
+}
+
+.review p {
+    margin: auto 40px;
+    font-size: 20px;
+    font-style: italic;
+    color: #404040;
+}
+
+.reviewer-name {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 10px;
+}
+

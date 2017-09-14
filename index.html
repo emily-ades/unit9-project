@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Monk's Restaurant</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles/unit9.css">
+</head>
+
+<body>
+    <div class="header-bar">
+        <h1>Monk's Cafe</h1>
+        <span class="tagline">"The Coffee Shop"</span>
+    </div>
+    <img class="hero" src="images/toms-restaurant.jpg" alt="Tom's Restaurant exterior">
+
+    <div class="section">
+        <h2>Reservations</h2>
+        <div class="flex">
+            <div class="flex-section">
+                <h3>Make a Reservation</h3>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="day">Day</label>
+                        <input type="text" id="day">
+                    </div>
+                    <button type="submit">Confirm</button>
+                </form>
+            </div>
+            <div class="flex-section">
+                <h3>Existing Reservations</h3>
+                <table>
+                    <thead>
+                        <th>Name</th>
+                        <th>Day</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Come Dine with Us</h2>
+        <iframe
+        width="100%"
+        height="450"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDKgFQzxVln38T1HqfOkuhhWD08cNcj_0c
+        &q=2880+Broadway,+New+York+NY
+        &center=40.8054491,-73.9654415
+        &zoom=16">
+      </iframe>
+    </div>
+    <div class="section">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <img src="images/jerry.jpg" alt="George and Jerry at restaurant">
+            <p>"Big lettuce, big carrots, tomatoes like volleyballs."<span class="reviewer-name">-Jerry Seinfeld, on The BIG Salad</span></p>
+        </div>
+        
+    </div>
+
+  <!-- <script src="js/main.js"></script> -->
+</body>
+</html>
